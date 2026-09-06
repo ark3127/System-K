@@ -17,7 +17,7 @@ jobs:
           channel: 'stable'
 
       - name: Generate missing Android project files
-        run: flutter create --platforms=android --org com.systemk .
+        run: flutter create --platforms=android --org com.systemk --project-name system_k .
 
       - name: Get dependencies
         run: flutter pub get
